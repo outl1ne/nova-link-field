@@ -1,9 +1,16 @@
 <template>
   <DefaultField :field="field" :errors="errors" :show-help-text="showHelpText">
     <template #field>
-      <a :target="field.target" :href="field.href">
-        {{ field.text ? field.text : field.value }}
+      <a
+        v-if="field.href"
+        @click.stop
+        :target="field.target"
+        :href="field.href"
+        class="link-default no-underline font-bold dim"
+      >
+        {{ field.text || field.value || field.href }}
       </a>
+      <span v-else>&mdash;</span>
     </template>
   </DefaultField>
 </template>
