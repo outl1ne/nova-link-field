@@ -3,7 +3,7 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/outl1ne/nova-link-field.svg?style=flat-square)](https://packagist.org/packages/outl1ne/nova-link-field)
 [![Total Downloads](https://img.shields.io/packagist/dt/outl1ne/nova-link-field.svg?style=flat-square)](https://packagist.org/packages/outl1ne/nova-link-field)
 
-This [Laravel Nova](https://nova.laravel.com/) package allows you to create and manage menus and menu items.
+This [Laravel Nova](https://nova.laravel.com/) package allows you to add links to index, detail and form views.
 
 ## Requirements
 
